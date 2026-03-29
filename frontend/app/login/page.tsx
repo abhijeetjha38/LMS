@@ -12,8 +12,9 @@ export default function LoginPage() {
 
   return (
     <div className="bg-slate-100 min-h-screen flex items-center justify-center">
-      {/* Subtle slate gradient background */}
+      {/* Subtle slate gradient background with tile pattern */}
       <div className="absolute inset-0 bg-gradient-to-br from-slate-100 via-slate-50 to-slate-100" />
+      <div className="absolute inset-0 bg-grid-pattern" />
 
       <div className="relative w-full max-w-sm mx-4">
         <Card className="rounded-lg shadow-lg border border-slate-200 bg-white px-8 py-10 gap-0 ring-0">

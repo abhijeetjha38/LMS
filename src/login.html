@@ -32,10 +32,17 @@
   <style>
     @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
     body { font-family: 'Inter', system-ui, sans-serif; }
+    .bg-grid-pattern {
+      background-image:
+        linear-gradient(to right, rgb(148 163 184 / 0.08) 1px, transparent 1px),
+        linear-gradient(to bottom, rgb(148 163 184 / 0.08) 1px, transparent 1px);
+      background-size: 24px 24px;
+    }
   </style>
 </head>
 <body class="bg-slate-100 min-h-screen flex items-center justify-center">
   <div class="absolute inset-0 bg-gradient-to-br from-slate-100 via-slate-50 to-slate-100"></div>
+  <div class="absolute inset-0 bg-grid-pattern"></div>
   <div class="relative w-full max-w-sm mx-4">
     <div class="bg-white rounded-lg shadow-lg border border-slate-200 px-8 py-10">
       <h1 class="text-2xl font-semibold text-slate-800 text-center mb-8">Sign In</h1>
